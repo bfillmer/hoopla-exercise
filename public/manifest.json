@@ -1,6 +1,6 @@
 {
-  "short_name": "greenfield",
-  "name": "General React Playground",
+  "short_name": "hoopla-exercise",
+  "name": "Hoopla API Exercise",
   "icons": [
     {
       "src": "favicon.ico",

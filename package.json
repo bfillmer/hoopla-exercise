@@ -1,6 +1,6 @@
 {
-  "name": "greenfield",
-  "version": "1.8.0",
+  "name": "hoopla-exercise",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@curi/core": "^1.0.0-beta.23",
