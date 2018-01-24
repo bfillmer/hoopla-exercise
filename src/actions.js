@@ -1,4 +1,6 @@
 
-// import {createAction} from 'redux-actions'
+import {createAction} from 'redux-actions'
 
-// import * as types from 'types'
+import {HYDRATED_TITLES} from 'types'
+
+export const hydrateTitles = createAction(HYDRATED_TITLES)
