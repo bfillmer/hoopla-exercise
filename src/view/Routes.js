@@ -5,7 +5,7 @@ import {connect} from 'react-redux'
 import {routeType} from 'selectors'
 import {ROUTE_HOME} from 'types'
 
-import {Home} from 'view/Home'
+import {Home} from 'view/Home/Container'
 
 const routesMap = {
   [ROUTE_HOME]: Home

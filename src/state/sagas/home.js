@@ -18,8 +18,6 @@ const getTitles = () => axios.get(API_URL, {
 })
 
 export function * init () {
-  yield console.log('Home Data is Loaded')
   const {data} = yield call(getTitles)
   yield put(hydrateTitles(data))
-  yield console.log(data)
 }

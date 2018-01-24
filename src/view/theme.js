@@ -14,18 +14,23 @@ const margins = {
   base: '1.5rem'
 }
 
+const paddings = {
+  half: '0.5rem'
+}
+
 // Reusable definitions for colors, spacings, etc.
 export const theme = {
   colors,
-  margins
+  margins,
+  paddings
 }
 
 // Inject some global styles that are most likely to be coupled to theme variables.
 injectGlobal`
   body {
     font-size: 16px;
-    font-weight: normal;
-    font-family: sans-serif;
+    font-weight: 300;
+    font-family: 'helvetica neue', helvetica, sans-serif;
     background-color: ${colors.white};
   }
 `
